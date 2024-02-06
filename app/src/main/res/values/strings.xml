@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Map box demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoidHJhY2tudGFrZSIsImEiOiJjbGVsY3FuNmwwYTU4M3lzNDNvYTdsbzJxIn0.PHfswvkqWWXixDRVLAqEPQ</string>
+    <string name="txt_go_to_second_fragment">Go to second fragment</string>
+
+</resources>

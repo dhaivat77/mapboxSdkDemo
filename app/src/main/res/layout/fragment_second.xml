@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:text="Second Fragment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="140dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image1"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image1"
+        android:layout_width="140dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/image2"/>
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image3"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image2"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image3"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image4"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image4"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image5"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image4"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image5"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image6"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image5"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image6"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image7"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image7"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image8"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image4"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image8"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image9"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image5"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image9"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image10"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image1"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image11"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image1"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image2"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image12"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image2"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image3"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image13"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image4"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image14"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image4"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image5"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image15"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image1"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image5"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image6"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image16"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image7"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image17"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image4"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image8"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image18"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/image4"-->
+<!--        app:layout_constraintStart_toEndOf="@id/image5"-->
+<!--        android:layout_width="140dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        app:srcCompat="@drawable/image9"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
